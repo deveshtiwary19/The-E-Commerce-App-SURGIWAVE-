@@ -27,7 +27,13 @@ The data inserted in all three fields must be in double quotes,make sure to doub
 Now that you have hardcoded a Admin Account in FireBase,you are good to go.
 Users can create their account normally from the app
 
-
+I request you to only download  the source coode in src directory with extensions .xml and .java files.
+Downloading the complete project sometimes lead to errors and file disabilities in android studio IDE.
+hence,downloading the source codes and placing them in your own project will be the best way.
+Dont forget to download the gradle files i have uploaded,for dependencies.
+Or an active internet connection will make the android studio bring them automatically to your project,reading the source codes.
+Dont forget to get the drawables too.
+That's it developer,you are good to go!!
 
 If you find my work helpful,you can follow me on isnta: @dev_tiwari_14581
 
