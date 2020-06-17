@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoryActivity">
+
+    <TextView
+        android:id="@+id/slogan_categoty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Select The Category"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:id="@+id/linear_category_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/slogan_categoty">
+
+        <ImageView
+            android:id="@+id/category_icu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icu"
+            android:elevation="10dp"
+            android:padding="2dp"
+            android:layout_margin="2dp"
+            />
+
+        <ImageView
+            android:id="@+id/category_nicu"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/nicu"
+            android:elevation="10dp"
+            android:padding="2dp"
+            android:layout_margin="2dp"
+            />
+        <ImageView
+            android:id="@+id/category_ot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ot"
+            android:elevation="10dp"
+            android:padding="2dp"
+            android:layout_margin="2dp"
+            />
+        <ImageView
+            android:id="@+id/category_genral"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/genral"
+            android:elevation="10dp"
+            android:padding="2dp"
+            android:layout_margin="2dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_category_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/linear_category_layout1"
+        >
+
+        <ImageView
+            android:id="@+id/category_instruments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/instruments"
+            android:elevation="10dp"
+            android:padding="2dp"
+            android:layout_margin="2dp"
+            />
+        <ImageView
+            android:id="@+id/category_pipeline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pipeline"
+            android:elevation="10dp"
+            android:padding="2dp"
+            android:layout_margin="2dp"
+            />
+        <ImageView
+            android:id="@+id/category_others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/others"
+            android:elevation="10dp"
+            android:padding="2dp"
+            android:layout_margin="2dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
